@@ -15,3 +15,4 @@ const client = new Client(dbCredentials);
 (async () => { await client.connect() })();
 
 export const db = drizzle(client, { schema: dbSchema });
+// (async () => { await client.end() });

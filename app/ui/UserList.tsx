@@ -1,5 +1,5 @@
 import { User } from "@/db/schema";
-import { fetchUsers } from "../api/route";
+import { fetchUsers } from "@/app/lib/actions";
 
 export default async function UserList() {
     const users = await fetchUsers();
