@@ -5,7 +5,7 @@ export default async function Page() {
     return (
         <>
             <h1>Create an account</h1>
-            <AuthForm action={signUp}></AuthForm>
+            <AuthForm action={signUp} action_name="Sign Up"></AuthForm>
         </>
     );
 }

@@ -6,7 +6,7 @@ export default async function Page() {
     return (
         <>
             <h1>Sign In</h1>
-            <AuthForm action={signIn}></AuthForm>
+            <AuthForm action={signIn} action_name="Sign In"></AuthForm>
             <Link href='/signup'>Sign Up</Link>
         </>
     );
